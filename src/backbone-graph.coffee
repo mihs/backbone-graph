@@ -83,7 +83,6 @@ Backbone.GraphModel = class GraphModel extends Backbone.Model
     if prevModel instanceof GraphModel and prevReverseKey
       if prevModel._relChanging or prevModel._changing
         return
-      # rel = @_findReverseRelation(prevModel, attr)
       if prevModel.get(prevReverseKey) instanceof Backbone.Collection
         prevModel.get(prevReverseKey).remove(model, options)
       else

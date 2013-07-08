@@ -26,7 +26,7 @@ See tests until docs are written.
 
 * More tests
 * Docs
-* Refactor the code
+* cleanup the code, refactor 
 
 ## Related libraries
 
