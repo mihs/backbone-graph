@@ -1,0 +1,22 @@
+{
+  "name"          : "backbone-graph",
+  "description"   : "Lightweight library for Backbone model relations",
+  "url"           : "https://github.com/mihs/backbone-graph",
+  "author"        : "Mihnea Scafes <mihnea@nagemus.com>",
+  "contributors"  : [],
+  "version"       : "0.1.0",
+  "dependencies"  : {
+    "backbone": "0.9.2",
+    "underscore": ">=1.4.3"
+  },
+  "devDependencies" : {
+    "coffee-script": "1.6.x",
+    "mocha"       : "1.6.0",
+    "chai": "1.2.0"
+  },
+  "engines": { 
+    "node": "0.8.x",
+    "npm":  "1.2.x"
+  },
+  "main": "lib/backbone-graph.js"
+}

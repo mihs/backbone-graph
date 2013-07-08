@@ -1,0 +1,6 @@
+--compilers coffee:coffee-script
+--globals expect,_,sinon
+--recursive
+--reporter spec
+--timeout 36000000
+-c
